@@ -1,0 +1,532 @@
+@font-face {
+  font-family: 'JioType';
+  src: url('../fonts/JioType-Black.eot');
+  src: url('../fonts/JioType-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/JioType-Black.woff2') format('woff2'),
+    url('../fonts/JioType-Black.woff') format('woff'),
+    url('../fonts/JioType-Black.ttf') format('truetype'),
+    url('../fonts/JioType-Black.svg#JioType-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JioType';
+  src: url('../fonts/JioType-Light.eot');
+  src: url('../fonts/JioType-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/JioType-Light.woff2') format('woff2'),
+    url('../fonts/JioType-Light.woff') format('woff'),
+    url('../fonts/JioType-Light.ttf') format('truetype'),
+    url('../fonts/JioType-Light.svg#JioType-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JioType';
+  src: url('../fonts/JioType-Medium.eot');
+  src: url('../fonts/JioType-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/JioType-Medium.woff2') format('woff2'),
+    url('../fonts/JioType-Medium.woff') format('woff'),
+    url('../fonts/JioType-Medium.ttf') format('truetype'),
+    url('../fonts/JioType-Medium.svg#JioType-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JioType';
+  src: url('../fonts/JioType-Bold.eot');
+  src: url('../fonts/JioType-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/JioType-Bold.woff2') format('woff2'),
+    url('../fonts/JioType-Bold.woff') format('woff'),
+    url('../fonts/JioType-Bold.ttf') format('truetype'),
+    url('../fonts/JioType-Bold.svg#JioType-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JioType';
+  src: url('../fonts/JioType-MediumItalic.eot');
+  src: url('../fonts/JioType-MediumItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/JioType-MediumItalic.woff2') format('woff2'),
+    url('../fonts/JioType-MediumItalic.woff') format('woff'),
+    url('../fonts/JioType-MediumItalic.ttf') format('truetype'),
+    url('../fonts/JioType-MediumItalic.svg#JioType-MediumItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'JioType';
+  src: url('../fonts/JioType-LightItalic.eot');
+  src: url('../fonts/JioType-LightItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/JioType-LightItalic.woff2') format('woff2'),
+    url('../fonts/JioType-LightItalic.woff') format('woff'),
+    url('../fonts/JioType-LightItalic.ttf') format('truetype'),
+    url('../fonts/JioType-LightItalic.svg#JioType-LightItalic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/*-------Baloo Font ---------*/
+@font-face {
+  font-family: 'Baloo';
+  src: url('../fonts/Baloo2-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baloo';
+  src: url('../fonts/Baloo2-Medium.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baloo';
+  src: url('../fonts/Baloo2-SemiBold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baloo';
+  src: url('../fonts/Baloo2-Bold.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baloo';
+  src: url('../fonts/Baloo2-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.theme {
+  color: #33914e !important;
+}
+.dark {
+  color: #252525 !important;
+}
+.gray-dark {
+  color: #666666 !important;
+}
+.gray {
+  color: #cccccc !important;
+}
+.green {
+  color: #6dbf67 !important;
+}
+.dark-yellow {
+  color: #fcb813 !important;
+}
+.yellow {
+  color: #ffd430 !important;
+}
+.white {
+  color: #fff !important;
+}
+.red {
+  color: #ff0000 !important;
+}
+
+.font-light {
+  font-weight: 300 !important;
+}
+.font-medium {
+  font-weight: 500 !important;
+}
+
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a:active,
+a:hover,
+a:link,
+a:visited {
+  font-family: inherit;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+html {
+  font-family: 'JioType';
+  line-height: 16px;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(31, 45, 61, 0);
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+html {
+  font-size: 100%;
+}
+body {
+  margin: 0;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #666666;
+  text-align: left;
+  background-color: #ffffff;
+}
+.baloo {
+  font-family: 'Baloo';
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.h7,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.1rem 0;
+  padding: 0;
+  font-family: inherit;
+  color: #000000;
+}
+
+.h1,
+h1 {
+  font-size: 21px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.h2,
+h2 {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+}
+
+.h3,
+h3 {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.h4,
+h4 {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.h5,
+h5 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.h6,
+h6 {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+.h7 {
+  font-size: 0.875rem;
+  line-height: 0.975rem;
+}
+
+.cur-pointer {
+  cursor: pointer;
+}
+.container {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.float-none {
+  float: none !important;
+}
+
+.section {
+  border-bottom: 1px solid #d3d3d3;
+  padding: 2px 0 7px 0;
+  margin: 7px 0;
+}
+.section:first-child {
+  margin-top: 0;
+}
+.para {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 17px;
+  color: #777777;
+  text-align: justify;
+}
+.brk {
+  width: 100%;
+  display: inline-block;
+  height: 7px;
+}
+.pl-1 {
+  padding-left: 7px;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-3 {
+  margin-top: 0.7rem;
+}
+.pt-5 {
+  padding-top: 77px;
+}
+.w-30 {
+  width: 30%;
+}
+.w-35 {
+  width: 35%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-65 {
+  width: 65%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-70 {
+  width: 70%;
+}
+.w-100 {
+  width: 100%;
+}
+.tc {
+  text-align: center;
+}
+.aic {
+  align-items: center;
+}
+.card {
+  width: 97%;
+  margin: 7px auto 14px auto;
+  background: #ffffff;
+  box-shadow: 0 3px 6px #00000029;
+  border-radius: 8px;
+  padding: 0;
+  font-size: 16px;
+}
+.card-pad {
+  padding: 13px;
+}
+.row {
+  width: 100%;
+  margin: 14px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row label {
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+}
+.row .desc {
+  color: #777777;
+  font-size: 14px;
+  text-align: justify;
+}
+.badge img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.ul {
+  margin: 4px;
+  padding-left: 15px;
+  color: #777;
+}
+.ul li {
+  margin-bottom: 7px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 17px;
+  text-align: justify;
+}
+.sel-box {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.sel-box .w-50 {
+  display: flex;
+}
+.sel-box select {
+  width: 90%;
+  text-overflow: ellipsis;
+  margin: 11px auto;
+  height: 51px;
+  border: 0 none;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px #0000004d;
+  font-size: 17px;
+  padding: 0 26px 0 7px;
+  color: #000;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('../images/dd.png') 99% / 15% no-repeat #fff;
+}
+
+.sel-box select option {
+  padding: 17px;
+}
+.sel-box select option:hover {
+  background: #328e4c;
+}
+
+.img-holder {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  height: 221px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cont-holder {
+  width: 100%;
+  padding: 4px 13px 8px 13px;
+}
+.cont-holder .title {
+  font-size: 21px;
+  color: #000;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.bor-bot {
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 17px;
+}
+.bor-left {
+  padding-left: 7px;
+  border-left: 1px solid #ddd;
+}
+.w-65 .row,
+.w-35 .row {
+  margin: 0;
+}
+.w-35 {
+  padding-right: 7px;
+}
+
+.policy-sec ol {
+  counter-reset: item;
+  padding-left: 0;
+  padding-right: 0;
+}
+.policy-sec li {
+  display: block;
+  margin-bottom: 7px;
+}
+.policy-sec li:before {
+  content: counters(item, '.') ' ';
+  counter-increment: item;
+}
+
+.policy-sec .h3 {
+  font-size: 18px;
+}
+.policy-sec ol > li {
+  margin-bottom: 15px;
+  margin-top: 7px;
+}
+
+.pop .card .section {
+  padding-top: 70px;
+  margin-top: -70px;
+  display: inline-block; /* required for webkit browsers */
+}
+
+.pop .sel-box {
+  padding: 0 15px;
+}
+.pop .sel-box select {
+  width: 100%;
+  background: url('../images/dd.png') 96% / 10% no-repeat #fff;
+}
+
+td {
+  text-align: center;
+  padding: 3px 0;
+}
+td[rowspan]:not(:last-child) {
+  border-bottom: 1px solid #efefef;
+
+  background-color: #fff;
+}
+tr:nth-child(odd) {
+  background-color: #efefef;
+}
+
+th {
+  text-align: center;
+  border-bottom: 1px solid #aaa;
+  padding: 0px 20px;
+  background-color: #fff;
+}
+
+.table-container {
+  display: block;
+  width: 86vw;
+  overflow-x: auto;
+  margin: 20px 0;
+}
+table {
+  width: 100%;
+}
+
+.nutrient-image {
+  width: 100%;
+}
+
+.nutrient-image-container {
+  width: 100%;
+}

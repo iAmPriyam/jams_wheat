@@ -1,0 +1,1941 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/slider.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <style>
+      .anchor {
+        display: block;
+        height: 62px;
+        margin-top: -62px;
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body class="baloo">
+    <div class="w-100 sel-box">
+      <div class="w-50">
+        <select
+          id="pest"
+          onchange="location = this.value;document.getElementById('disease').value = '';window.scrollY(-100)"
+        >
+          <option value="">कीट का चयन करें</option>
+          <option value="#termites">दीमक</option>
+          <option value="#shoot_fly">प्ररोह मक्खी</option>
+          <option value="#army_worm">सेना कीट</option>
+          <option value="#pink_stem_borer">गुलाबी तना छेदक</option>
+          <option value="#aphids">माहू कीट</option>
+          <option value="#wheat_thrips">गेहूँ थ्रिप्स</option>
+          <option value="#jassids">हरा फुदका</option>
+          <option value="#flea_beetles">पिस्सू भृंग</option>
+          <option value="#surface_grasshopper">सतही टिड्डी</option>
+          <option value="#brown_wheat_mite">भूरा गेहूँ का घुन</option>
+          <option value="#ear_cockle">गेहूँ की बाली का कीड़ा</option>
+          <option value="#american_pod_borer">अमेरिकी कली छेदक</option>
+          <option value="#cereal_leaf_beetle">अनाज पत्ती भृंग</option>
+          <option value="#hessian_fly">हेसियन मक्खी</option>
+          <option value="#white_grub">सफेद सुण्डी</option>
+          <option value="#stem_maggot">तना मैगॉट</option>
+        </select>
+      </div>
+      <div class="w-50">
+        <select
+          id="disease"
+          onchange="location = this.value;document.getElementById('pest').value = ''"
+        >
+          <option value="">रोग का चयन करें</option>
+          <option value="#brown_rust">गेहुआं रोग</option>
+          <option value="#stripe_rust">धारीदार रतुआ/पीला रतुआ</option>
+          <option value="#loose_smut">श्लथ कंड</option>
+          <option value="#foot_rot">पाद विगलन</option>
+          <option value="#powdery_mildew">चूर्णिल आसिता</option>
+          <option value="#black_rust">काला रतुआ</option>
+          <option value="#flag_smut">ध्वज कवक</option>
+          <option value="#karnal_bunt">करनाल बंट</option>
+          <option value="#alternaria_blight">अल्टरनेरिया पत्ती झुलसा रोगा</option>
+          <option value="#black_sooty">काली और राख जैसी फफूंद</option>
+          <option value="#black_point">गेहूं का काला फफूंद</option>
+          <option value="#root_knot">जड़ गाँठ</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="container pt-5">
+      <h2 class="font-medium pl-1">कीट</h2><span class="anchor" id="termites"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/termites.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >दीमक<br /><i
+                > (ओडोन्टोटर्मिस ओबेसस, माइक्रोटर्मिस ओबेसी)</i
+              ></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">अंकुरण से पकने की अवस्था तक</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>अंकुरण से परिपक्वता तक विभिन्न विकास चरणों में दीमक फसल पर हमला करते हैं।</li>
+                  <li>गंभीर रूप से क्षतिग्रस्त पौधे मुरझाए हुए और सूखे दिखते हैं।</li>
+                  <li>यदि जड़ें आंशिक रूप से क्षतिग्रस्त हो जाती हैं, तो पौधे पीले दिखाई देते हैं।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>गंभीर रूप से प्रभावित क्षेत्रों में दीमक से उपज नुकसान की भरपाई के लिए कम से कम 20% की उच्च दर से बुवाई करें।</li>
+                  <li>पौधे के अवशेष और अन्य कचरे को हटा दें, विशेष रूप से नम और सड़ने वाली लकड़ी को।</li>
+                  <li>बुवाई से पहले बीज को फिप्रोनिल (Fipronil) 5% एस सी (SC) @ 6 ml प्रति kg (240 - 300 ml/एकड़ बीज) या क्लोरपायरीफॉस (chlorpyriphos) 20 ई सी (E C) @ 4 ml प्रति kg बीज (160 ml/एकड़ बीज) से उपचारित करें।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>फिप्रोनिल (Fipronil) 5% एस सी (SC) - रीजेंट एस सी (Regent SC) बेयर (Bayer), स्टारगैजेट (Stargazette) (स्वाल (Swal)), सोनिक फ्लो (Sonic Flo) (टाटा (TATA)), महावीर (Mahaveer) गर्धा (Gharda), फैक्स एस सी (Fax SC) (धानुका (Dhanuka)), सर्जेन्ट एस सी (Sargent SC) (आई आई एल (IIL))</li>
+                  <li>क्लोरपाइरीफोस (chlorpyrifos) 20% ई सी (E C) - डर्स्बन (Dursban) (डॉव (Dow)), क्लोरोबैन (Chloroban) (यू पी एल (UPL)), ट्राइसेल (Tricel) 20 (एक्सेल (Excel)), लीथल (Lethal) 20 ई सी (E C) (आई आई एल (IIL)), टाफाबैन (Tafaban) (टाटा (TATA)), त्रिशूल (Trishul) (कोरोमंडल (Coromandel)), स्ट्राइक (Strike) 20 ई सी (EC) (बायोस्टैड (BioStadt)),</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="shoot_fly"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/shoot_fly.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title">प्ररोह मक्खी<br /><i> (एथेरिगोना नकवी)</i></span></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">अंकुर अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>मैगॉट्स अंकुरित होने के एक सप्ताह बाद से लेकर लगभग एक महीने तक, छोटे पौधों के प्ररोह में छेद करते हैं।</li>
+                  <li>केंद्रीय प्ररोह सूख जाती है जिसके परिणामस्वरूप पौधे मरने लगते हैं।</li>
+                  <li>अक्सर संक्रमण 60% तक बढ़ जाता है।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>समय पर यानी 15 से 30 नवंबर के बीच बुवाई की सलाह दी जाती है, क्योंकि देर से बोई गई फसल (दिसंबर की बुवाई) में प्ररोह मक्खी का अधिक संक्रमण होता है।</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="army_worm"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/army_worm.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title">सेना कीट<br /><i> (मिथिमना सेपाराटा)</i></span></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">अंकुरण और तलशाखन अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>शुरुआती इंस्टार लार्वा पत्तियों को कंकाल बना देते हैं जबकि बाद वाले इंस्टार लार्वा रात के समय पत्तियों को खाते हैं।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>फल छेदक की निगरानी के लिए फेरोमोन जाल @ 4-5/एकड़ लगाया जाना चाहिए। हर 20-25 दिन के अंतराल के बाद चारे को ताजा चारे के साथ बदलें। फल छेदक के लिए ई टी एल (ETL) 8 से 10 कीट/दिन/जाल है।</li>
+                  <li>शिकारी पक्षियों के खेत में आने के लिए पक्षियों के बैठने का अड्डा @ 10/एकड़ को लगाया जाना चाहिए।</li>
+                  <li>150 L पानी में कीटनाशक स्पिनोसैड (Spinosad) 45 एस सी (SC) @ 65 ml/एकड़ लगाएं</li>
+                  <li>150 L पानी में क्लोरपायरीफोस (Chlorpyriphos) 50 ई सी (E C) + साइपरमेथ्रिन (Cypermethrin) 5 ई सी (E C) (1.0 ml/l)  150 ml डालकर छिड़काव करें</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>स्पिनोसैड (Spinosad) 45% एस सी (SC) - स्पिंटर (Spintor) (बेयर (Bayer)), ट्रेसर (Tracer) (डॉव(Dow)), वन-अप (One-Up) (धानुका (Dhanuka)), टैफिन (Taffin) (टाटा (TATA)), कंज़र्व (Conserve) (नागार्जुन (Nagarjuna))</li>
+                  <li>क्लोरपाइरीफोस (Chlorpyrifos) 50% + साइपरमेथ्रिन (Cypermethrin) 5% ई सी (E C) - डबल स्टार (Double Star) (स्वाल (Swal)), कोरंडा (Koranda) 505 (टाटा (TATA)), हमला (Hamla) 550 (घरदा (Gharda)), सुपर स्ट्रांग (Super Strong) 505 (सुमिल (Sumil)), लीथल सुपर (Lethal Super) 505 (आई आई एल (IIL))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="pink_stem_borer"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/pink_stem_borer.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >गुलाबी तना छेदक<br /><i> (सीसमिया इनफेरेंस)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">पुष्प गुच्छ बनने से दाना बनने तक</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>गंभीर नुकसान से तना टूट जाता है।</li>
+                  <li>वृद्धि रुकने के कारण गंभीर रूप से संक्रमित पौधों में कई बार छल्ली और गुच्छा एक ही जगह पर हो सकते हैं।</li>
+                  <li>लार्वा द्वारा चक्र को खाने के परिणामस्वरूप पत्तियों में लंबे छिद्रों की कतारें बन जाती हैं जबकि गोल छेद चीलो पार्टेलस द्वारा निर्मित होते हैं।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>फेनवाल्रेट (Fenvalrate) 20 ई सी (E C) @ 2 ml/L यानी 200 L पानी में 400 ml अत्यधिक प्रभावी है।</li>
+                  <li>200 L पानी में स्पिनोसैड (Spinosad) 45 एस सी (SC) @ 80 ml/एकड़ और 200 L पानी में क्लोरेंट्रानिलिप्रोल (chlorantraniliprole) 18.5 एस सी (SC) @ 25 ml/एकड़ बराबर असर वाले पाए गए हैं और नियंत्रण के लिए काफी हैं।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>फेनवालरेट (Fenvalerate) 20% ई सी (E C) - क्रिफ़ेन (Krifen)  (के आर (KR)), फेनकिल (Fenkill) (यू पी एल (UPL)), किंग पेन (King Pen) (के सी एस (K C S)), देवीफेन (Devifen) 20 (देवीदयाल (Devidayal)), टाटाफेन (Tatafen) 10 ई सी (E C) (टाटा (TATA))</li>
+                  <li>स्पिनोसैड (Spinosad) 45% एस सी (SC) - स्पिंटर (Spintor) (बेयर (Bayer)), ट्रेसर (Tracer) (डॉव(Dow)), वन-अप (One-Up) (धानुका (Dhanuka)), टैफिन (Taffin) (टाटा (TATA)), कंज़र्व (Conserve) (नागार्जुन (Nagarjuna))</li>
+                  <li>क्लोरेंट्रानिलिप्रोल (Chlorantraniliprole) 18.5% एस सी (SC) - कोराजेन (Coragen) (ड्यूपॉन्ट (DuPont))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="aphids"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="background-image: url('./assets/images/Wheat/aphids.png')"
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title">एफिड्स<br /> <i>(साइटोबियन एवेनाई)</i></span></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">अंकुरण से बाली निकलने की अवस्था तक</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>निम्फ और वयस्क पौधों से खासतौर पर उनकी बालियों से रस चूसते हैं।</li>
+                  <li>पौधे भूरे और बदरंग दिखाई देते हैं।</li>
+                  <li>क्षतिग्रस्त पत्तियां अक्सर थोड़ी मुड़ी हुई या अधिक संक्रमण पर धब्बेदार दिखाई देती हैं।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>निम्नलिखित रसायनों में से किसी का फसल पर छिड़काव करें</li>
+                  <li>इमिडाक्लोप्रिड (Imidacloprid) 17.8 एस एल (SL) @ 2.4 ml/एकड़। स्पिनोसैड 45 एस सी (SC) @ 0.015</li>
+                  <li>200-240 लीटर पानी/एकड़ में एसिटामिप्रिड (Acetamiprid) 20% एस पी (SP) @ 20- 40 g</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>स्पिनोसैड (Spinosad) 45% एस सी (SC) - स्पिंटर (Spintor) (बेयर (Bayer)), ट्रेसर (Tracer) (डॉव(Dow)), वन-अप (One-Up) (धानुका (Dhanuka)), टैफिन (Taffin) (टाटा (TATA)), कंज़र्व (Conserve) (नागार्जुन (Nagarjuna))</li>
+                  <li>इमिडाक्लोप्रिड (Imidacloprid) 17.8 एस एल (SL) - कॉन्फिडोर Confidor (बेयर (Bayer)), सीमर (Seamer) (ड्यूपॉन्ट (DuPont)), इमिडास्टार (Imidastar) (स्वाल(Swal)), इमिडेन (Imiden) (डॉव(Dow)), करेज (Courage) (एम आई एल (MIL)), इमिडासेल (Imidacel) 17.8 और 20 (एक्सेल (Excel)), इमिडा गोल्ड (Imida Gold) (यू पी एल (UPL), टाटामिडा (Tatamida) (टाटा (TATA))</li>
+                  <li>एसिटामिप्रिड (Acetamiprid) 20% एस पी (SP) - माणिक (Manik) (टाटा (TATA)), रेकॉर्ड (Rekord) (ड्यूपॉन्ट (DuPont)), एसिटैसेल (Acetacel) (एक्सेल (Excel)), एसेटा (Aceta) (यू पी एल (UPL)), लिफ्ट (Lift) (इंडोफिल (Indofil)), धान प्रीत (Dhan Preet) (धानुका), क्रॉप प्राइड (Crop Pride) (एन ए सी एल (NACL)), शार्प (Sharp) (आई आई एल  (IIL))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="wheat_thrips"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/wheat_thrips.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >गेहूं की थ्रिप्स <br /><i>(हैपलोथ्रिप्स ट्रिटिसी)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">अंकुरण और तलशाखन</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>थ्रिप्स आमतौर पर ध्वज पत्ती के आवरण को संक्रमित करता है, और तने को खाता है।</li>
+                  <li>वयस्क और निम्फ दोनों नुकसान पहुंचा सकते हैं।</li>
+                  <li>बड़ी संख्या में मौजूद होने पर, ऊतक का रंग चांदी जैसा हो सकता है।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>एक उथली जुताई के बाद गहरी जुताई (लगभग 25 cm की गहराई पर) मिट्टी में H. ट्रिटिसी निम्फ की जनसंख्या को नियंत्रित करने की प्रभावी विधि है</li>
+                  <li>5% नीमसीड कर्नेल अर्क छिड़काव करें</li>
+                  <li>150 L पानी/एकड़ में इमिडाक्लोप्रिड (Imidacloprid) 17.8 एस एल (SL) @ 0.5ml/L (75 ml) या थायोमेथोक्सम (Thiomethoxam) 25 WG @ 1g/L (150 g)</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>इमिडाक्लोप्रिड (Imidacloprid) 17.8 एस एल (SL) - कॉन्फिडोर Confidor (बेयर (Bayer)), सीमर (Seamer) (ड्यूपॉन्ट (DuPont)), इमिडास्टार (Imidastar) (स्वाल(Swal)), इमिडेन (Imiden) (डॉव(Dow)), करेज (Courage) (एम आई एल (MIL)), इमिडासेल (Imidacel) 17.8 और 20 (एक्सेल (Excel)), इमिडा गोल्ड (Imida Gold) (यू पी एल (UPL), टाटामिडा (Tatamida) (टाटा (TATA))</li>
+                  <li>थायामेथोक्सम 25% डब्ल्यूजी (WG) - एक्टारा (Actara) (सिन्जेन्टा (Syngenta)), बटालियन (Battalion) (स्वाल (Swal)), वोंडरेक्स Wonderex (एक्सेल (Excel)), रेनोवा (Renova) (यू पी एल (UPL)), देवितारा (Devitara) (देवीदयाल (Devidayal)), क्लिक (Click) (इंडोफिल (Indofil)), अरेवा Areva (धानुका (Dhanuka))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="jassids"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="background-image: url('./assets/images/Wheat/jassids.png')"
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >जैसिड्स<br /> <i>(टाइफ्लोसाइबा मैक्यूलफ्रोन मॉट्सच)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">अंकुरण से तलशाखन अवस्था तक</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>फसल के मध्य से ऊपरी भाग में पत्तियों के किनारों पर पीलापन और मुड़ना।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>खेत पर बनाए गए 5% नीम के बीज की गिरी के अर्क का छिड़काव या कच्चे नीम के तेल का छिड़काव @ 1% जैसिड्स की आबादी को कम कर देता है</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="flea_beetles"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/flea_beetles.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >पिस्सू भृंग<br /> <i>(फाइलोट्रेटा चोटानिका डुव)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">अंकुरण अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>ये छोटे, कूदने वाले भृंग गहरे रंग के और चमकदार होते हैं और पत्तियों की ऊपरी सतह को काटते हैं जिससे सफेद धारियाँ बन जाती हैं।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>फसलों के बीच और खेतों के किनारों पर अच्छा खरपतवार नियंत्रण महत्वपूर्ण है।</li>
+                  <li>पाइरेथ्रोइड-आधारित उत्पाद इस कीट को नियंत्रित करने में प्रभावी हैं जैसे अल्फा-साइपरमेथ्रिन (Alpha -Cypermethrin) @ 1ml/L (150 ml/एकड़) या फिप्रोनिल (Fipronil) 5% SC @ 1ml/L (150 ml/ac) 150 L पानी में</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>अल्फा-साइपरमेथ्रिन (Alpha -Cypermethrin) 10% डब्ल्यू पी (WP) - अल्फास्टार (Alfastar)  (स्वाल (Swal)), गुरु (Guru) ( (यू पी एल (UPL)), करफू (Karfu) (किलपेस्ट(Kilpest)), सफारी (Safari) (सुपर सी एस एल (Super CSL)), डैश (Dash) 5% डब्ल्यू पी (WP) (एम आई एल (MIL))</li>
+                  <li>फिप्रोनिल (Fipronil) 5% एस सी (SC) - रीजेंट एस सी (Regent SC) बेयर (Bayer), स्टारगैजेट (Stargazette) (स्वाल (Swal)), सोनिक फ्लो (Sonic Flo) (टाटा (TATA)), महावीर (Mahaveer) गर्धा (Gharda), फैक्स एस सी (Fax SC) (धानुका (Dhanuka)), सर्जेन्ट एस सी (Sargent SC) (आई आई एल (IIL))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="surface_grasshopper"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/surface_grasshopper.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >सतही टिड्डी<br /><i> (क्रोटोगोनस ट्रेकिप्टेरस)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">अंकुरण अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>निम्फ और वयस्क दोनों पत्तियों को खाकर और अंकुर को काटकर नुकसान पहुंचाते हैं।</li>
+                  <li>पत्तियां कटी हुई और अंकुर गिरे हुए दिखते हैं, जिससे गंभीर संक्रमण के मामले में फिर से बुवाई करने की आवश्यकता हो सकती है।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>5% मैलाथियोन (malathion) @ 10 kg/एकड़ को फसल पर डालकर टिड्डों को नियंत्रित करें।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>मैलाथियोन (malathion)  - 50% ई सी (E C) - साइथियोन (Cythion) (कोरोमंडल (Coromandal)), मिल्थियोन (Milthion) (आई आई एल (IIL))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="brown_wheat_mite"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/brown_wheat.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >भूरा गेहूँ का घुन<br /><i> (पेट्रोबिया लेटींस)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">तलशाखन से पकने की अवस्था तक</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>घुन के आक्रमण के कारण नुकसान</li>
+                  <li>घुन पत्तों पर चांदी रंग के धब्बे बनाता है।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>थायोमेथोक्सम (thiomethoxam) @ 2-3 g/kg बीज यानी 120 -150 g/एकड़ के साथ बीज का उपचार करें।</li>
+                  <li>डाइकोफोल (Dicofol) 5 ml/l @ 1000 ml/एकड़ या वेटेबल सल्फर 3 g/L @ 600 g/एकड़ 200 L पानी में मिलाकर छिड़काव करें।</li>
+                  <li>कीट की व्यापकता के आधार पर उपचार को 15 दिनों के अंतराल के बाद दोहराने की आवश्यकता होती है।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>थायोमेथोक्सम (thiomethoxam) 30% एफ एस (FS) - स्लेयर प्रो (Slayer Pro) (जी एस पी (GSP)), अबेध सुपर (Abhedh Super) (एम्बर (Amber))</li>
+                  <li>डाइकोफोल (Dicofol) 18.5% ई सी (E C) - क्लिन (Klin) (के आर (KR)), स्टार्कल (Starkel) (स्वाल (Swal)), टिकटोक (Tiktok) (यू पी एल (UPL)), माइट (Might) (देवीदयाल (Devidayal)), सुमफोल (Sumfol) (सुमिल (Sumil)), कर्नल-एस (Colonel-S) (इंडोफिल (Indofil))</li>
+                  <li>सल्फर 80% ड्ब्ल्यू पी (W P) (वेटेबल सल्फर (Wettable Sulphur)) - थायोनुत्री (Thionutri) (सिन्जेन्टा(Syngenta)), स्टारसल्फ (Starsulf) (स्वाल (Swal), सल्फेक्श (Sulfex) (एक्सेल (Excel)), सल्फाविट (Sulfavit) (देवीदयाल (Devidayal)), सल्फिल (Sulfil) (इंडोनिल (Indofil)), सल्फिन प्लस (Sulfin Plus) (आई आई एल  (IIL)), सल्टाफ (Sultaf) (टाटा (TATA))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="ear_cockle"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/ear_crackle.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title">गेहूँ की बाली का कीड़ा<br /><i> (निमेटोड)</i></span></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">बुवाई पूर्व अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>पत्ती के ब्लेड आमतौर पर मुड़ जाते हैं; संक्रमित बालियां छोटी होती हैं और लंबे समय तक हरी रहती हैं।</li>
+                  <li>बाल अधिक फैलते हैं; प्रभावित अनाज एक या एक से अधिक छोटे गॉल्स में बदल जाता है।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>निमेटोड गॉल्स से मुक्त शुद्ध बीज का उपयोग करें।</li>
+                  <li>बीजों को छानकर गॉल्स को यंत्रवत् निकालें।</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="american_pod_borer"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/american_pod_borer.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >अमरीकी कली छेदक<br /><i
+                > (हेलिकोवर्पा आर्मीगेरा हुबनेर)</i
+              ></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">बाली निकलने की अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>छोटे लार्वा कुछ समय के लिए पत्तियों को खाता है और फिर बालियों पर हमला करता है।</li>
+                  <li>आंतरिक ऊतकों को गंभीर रूप से खाया जाता है और पूरी तरह से खोखला कर दिया जाता है।</li>
+                  <li>कैटरपिलर खाने के दौरान अपने सिर को अंदर घुसा देते हैं शरीर का बाकी हिस्सा बाहर रहता है।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>क्विनोलफॉस (Quinolphos) 25% ई सी (E C) @ 2 ml/l (400 ml) छिड़काव करें या 3 kg/एकड़ कार्बेरिल (carbaryl) 50 डब्ल्यू पी (WP) 200 L पानी में छिड़काव करें</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>क्विनोलफॉस (Quinolphos) 25% ई सी (E C) - एकालक्स (Ekalux) (सिन्जेंटा (Syngenta)), स्टारलक्स 25 ई सी (E C) (स्वाल (Swal)), फ्लैश (Flash) (इंडोफिल (Indofil)), वज्र (Vazra) -25 (केमिनोवा (Cheminova))</li>
+                  <li>कार्बेरिल 50% ड्ब्ल्यू पी (W P) - सेविन (Sevin), देवीकार्ब (Devicarb) (देवीदयाल (Devidayal)), केविन (Kavin) के आर (KR)</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="cereal_leaf_beetle"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/cereal_leaf_beetle.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >गेहूं का अनाज पत्ती भृंग<br /><i> (ओलेमा मेलानोपा)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">ध्वज पत्ती अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>गैर बालों वाली पत्तियों वाली गेहूं की किस्में आमतौर पर अधिक प्रभावित होती हैं।</li>
+                  <li>वयस्क और साथ ही लार्वा कीट की हानिकारक अवस्था है और पत्तियों पर लंबी धारियों का कारण बनती है।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>200 लीटर पानी में 260 ml/एकड़ की दर से फिप्रोनिल (Fipronil) 5% SC छिड़काव करें।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>फिप्रोनिल (Fipronil) 5% एस सी (SC) - रीजेंट एस सी (Regent SC) बेयर (Bayer), स्टारगैजेट (Stargazette) (स्वाल (Swal)), सोनिक फ्लो (Sonic Flo) (टाटा (TATA)), महावीर (Mahaveer) गर्धा (Gharda), फैक्स एस सी (Fax SC) (धानुका (Dhanuka)), सर्जेन्ट एस सी (Sargent SC) (आई आई एल (IIL))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="hessian_fly"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/hessian_fly.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >हेसियन मक्खी<br /><i>(मायेटिओला डिस्ट्रक्टर)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">आरंभिक तलशाखन अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>तने से रस चूसकर लार्वा फसल को नुकसान पहुंचाता है।</li>
+                  <li>गंभीर संक्रमण से पौधे की वृद्धि रुक जाती है।</li>
+                  <li>पौधा का खड़ा रहना कम हो जाता है और झुक जाता है।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>200-250 लीटर पानी में घोलकर 250 ml/एकड़ की दर से फिप्रोनिल (Fipronil) 5% SC का छिड़काव करें।</li>
+                  <li>छिड़काव के लिए हमेशा खोखले शंकु वाली नोजल का उपयोग करें।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>फिप्रोनिल (Fipronil) 5% एस सी (SC) - रीजेंट एस सी (Regent SC) बेयर (Bayer), स्टारगैजेट (Stargazette) (स्वाल (Swal)), सोनिक फ्लो (Sonic Flo) (टाटा (TATA)), महावीर (Mahaveer) गर्धा (Gharda), फैक्स एस सी (Fax SC) (धानुका (Dhanuka)), सर्जेन्ट एस सी (Sargent SC) (आई आई एल (IIL))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="white_grub"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/white_grub.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >सफेद सुण्डी<br /><i> (होलोट्रीचिया कोन्सन्गुइना)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">प्राथमिक अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>जड़ें आंशिक रूप से नष्ट हो जाती हैं।</li>
+                  <li>पौधों की वृद्धि गंभीर रूप से कम हो जाती है और आम तौर पर शीर्ष का उत्पादन नहीं करते हैं।</li>
+                  <li>गेहूं के खेतों में पौधों के मुरझाने और मरने के पैच देखे जाते हैं।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>150 L पानी में 5% SC @ 300 ml/एकड़ पत्तियों पर छिड़काव करें या प्रभावित पौधों के आधार पर मिट्टी को गीला करें</li>
+                  <li>छिड़काव के लिए हमेशा खोखले शंकु वाली नोजल का उपयोग करें।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>फिप्रोनिल (Fipronil) 5% एस सी (SC) - रीजेंट एस सी (Regent SC) बेयर (Bayer), स्टारगैजेट (Stargazette) (स्वाल (Swal)), सोनिक फ्लो (Sonic Flo) (टाटा (TATA)), महावीर (Mahaveer) गर्धा (Gharda), फैक्स एस सी (Fax SC) (धानुका (Dhanuka)), सर्जेन्ट एस सी (Sargent SC) (आई आई एल (IIL))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="stem_maggot"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/stem_maggot.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >तना मैगॉट<br /> <i>(मेरोमेज़ एमेरिकाना)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">ध्वज-पत्ती अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>छोटे लार्वा तने के अंदर छेद करते हैं और ऊतक को खाते हैं जिससे शाखाएं गिर जाती हैं।</li>
+                  <li>गंभीर संक्रमण के साथ पौधा मर जाता है।</li>
+                  <li>संक्रमित पौधे सफेद शीर्ष जैसे दिखते हैं।</li>
+                  <li>वयस्क मक्खी गहरे रंग की धारियों के साथ पीले हरे से पीले रंग की होती है।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>मिट्टी को धूप लगाने के लिए लिए गहरी और गर्मी में जुताई करें।</li>
+                  <li>क्षेत्र के लिए अनुशंसित सहिष्णु किस्मों और प्रमाणित स्वच्छ बीजों का उपयोग करें।</li>
+                  <li>फसल की देरी से बुवाई से बचें।</li>
+                  <li>हमेशा अच्छी तरह से सड़े हुए खादों और उर्वरकों की अनुशंसित खुराक का उपयोग करें।</li>
+                  <li>निम्नलिखित कीटनाशकों में से किसी एक का छिड़काव करें।</li>
+                  <li>135 ml/एकड़ की दर से डाइमेथोएट (Dimethoate) 30 ई सी (EC) या</li>
+                  <li>फिप्रोनिल (Fipronil) 5% SC - @ 250 ml/एकड़।</li>
+                  <li>उपरोक्त छिड़काव 250 लीटर पानी में घोलकर करना चाहिए।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>डाइमेथोएट (Dimethoate) 30 ई सी (E C) - रोगोर (Rogor) (केमिनोवा (Cheminova)), तारा (Tara) -909 (स्वाल (Swal)), टैगफोर (Tafgor) (टाटा (TATA)), क्रॉप डायमंड (Crop Diamond) (एन ए सी एल (NACL))</li>
+                  <li>फिप्रोनिल (Fipronil) 5% एस सी (SC) - रीजेंट एस सी (Regent SC) बेयर (Bayer), स्टारगैजेट (Stargazette) (स्वाल (Swal)), सोनिक फ्लो (Sonic Flo) (टाटा (TATA)), महावीर (Mahaveer) गर्धा (Gharda), फैक्स एस सी (Fax SC) (धानुका (Dhanuka)), सर्जेन्ट एस सी (Sargent SC) (आई आई एल (IIL))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="font-medium pl-1">रोग</h2><span class="anchor" id="brown_rust"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/brown_rust.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >भूरा रतुआ<br /><i> (पक्सीनिया ट्रिटिसीना)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">सभी विकास अवस्थाएं</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>कवक पत्तियों पर दाने बनाता है जो कि भूरे रंग के होते हैं।</li>
+                  <li>आरंभिक संक्रमण से उपज में गंभीर कमी आती है।</li>
+                  <li>दाने गोलाकार और थोड़े अण्डाकार होते हैं और तना रतुआ के दानों से छोटे होते हैं।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>किसानों को क्षेत्र के लिए अनुशंसित नवीनतम प्रतिरोधी किस्मों का उपयोग करने की सलाह दी जाती है। (एच आई (HI) 1544, जी डब्ल्यू (GW) 322, एच आई (HI) 8498, एच डी (HD) 4672, एम पी (MP) 3288)</li>
+                  <li>नियंत्रण के लिए प्रोपिकोनाजोल (Propiconazole) 25% ई सी (E C) @ 0.1% (150 ml/एकड़) या मैनकोजेब (Mancozeb) का 3 g/l पत्तियों पर छिड़काव करें। 150 L पानी में (450 g/एकड़)</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>प्रोपिकोनाजोल (Propiconazole) 25% ई सी (E C) - टिल्ट (Tilt) सिन्जेंटा (Syngenta), टाइड (Tide) (एम आई एल (MIL)), ज़ेरॉक्स (Zerox) (धानुका (Dhanuka)), सोना (Sona) (आई आई एल  (IIL)), रिज़ल्ट (Result) (नागार्जुन (Nagarjuna))</li>
+                  <li>मैनकोजेब (Mancozeb) 75% ड्ब्ल्यू पी (W P) - डाइथेन (Dithane) M-45 (डॉव (Dow)), इंडोफिल (Indofil) M-45 इंडोफिल (Indofil), टाटा (Tata) M-45 (टाटा (TATA)), धानुका (Dhanuka) M-45 (धानुका (Dhanuka)), क्रॉप मैन (एन ए सी एल (NACL), स्पर्श (Sparsh) (बायोस्टैड (BioStadt))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="stripe_rust"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/stripe_rust.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >धारीदार रतुआ/पीला रतुआ <br /><i
+                >(पक्सीनिया स्ट्राइफोर्मिस एफ. स्प. ट्रिसिटी)</i
+              ></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">सभी विकास अवस्थाएं</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>मुख्य रूप से पत्ती आवरण और तने की तुलना में पत्तियों पर होती है।</li>
+                  <li>चमकीले पीले दाने (युरेडिया) फसल के प्रारंभिक चरण में पत्तियों पर दिखाई देते हैं और दाने धारियों के रूप में रैखिक पंक्तियों में व्यवस्थित होते हैं।</li>
+                  <li>धारियां पीले से नारंगी पीले रंग की होती हैं।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>क्षेत्र के लिए अनुशंसित प्रतिरोधी किस्मों का उपयोग करें। (एच आई (HI) 1544, जी डब्ल्यू (GW) 322, एच आई (HI) 8498, एच डी (HD) 4672, एम पी (MP) 3288)</li>
+                  <li>भूरे और पीले रतुआ के नियंत्रण के लिए 200 L पानी में प्रोपिकोनाजोल (Propiconazole) 25% EC @ 0.1% (200 ml/एकड़) का पत्तियों पर छिड़काव करें।</li>
+                  <li>पीले रतुआ के नियंत्रण के लिए कार्बोक्सिन (Carboxin) 37.5% + थिरम (Thiram) 37.5% ड्ब्ल्यू पी (W P) @ 0.2% (300 g/एकड़) 200 लीटर पानी में छिड़काव करें।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>प्रोपिकोनाजोल (Propiconazole) 25% ई सी (E C) - टिल्ट (Tilt) सिन्जेंटा (Syngenta), टाइड (Tide) (एम आई एल (MIL)), ज़ेरॉक्स (Zerox) (धानुका (Dhanuka)), सोना (Sona) (आई आई एल  (IIL)), रिज़ल्ट (Result) (नागार्जुन (Nagarjuna))</li>
+                  <li>कार्बोक्सिन (Carboxin) 37.5% + थिरम (Thiram) 37.5% ड्ब्ल्यू पी (W P) - विटावैक्स पावर (Vitavax Power) (धानुका (Dhanuka))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="loose_smut"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/loose_smut.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >श्लथ कंड <br /><i>(उस्टिलैगो ट्रिटिसी)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">पुष्पगुच्छ अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>श्लथ कंड ठंडी और नमी वाले मौसम में होता है।</li>
+                  <li>रोग पूरे पुष्पक्रम को प्रभावित करता है।</li>
+                  <li>श्लथ कंड बीज जनित है।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>बीज को किसी भी अनुशंसित प्रणालीगत फफूंदनाशक जैसे कार्बोक्सिन (Carboxin), कार्बेन्डाजिम (Carbendzim) की 1 से 1.5 g प्रति kg 40 - 50 g/ एकड़ बीज की दर से बुवाई के समय उपचारित करें।</li>
+                  <li>बेन्लेट (Benlate) (बेनोमाइल (Benomyl) 50% ड्ब्ल्यू पी (W P)) 2.5 से 3.0 g प्रति kg उपयोग किए गए बीज की दर से।</li>
+                  <li>वैकल्पिक रूप से बीज का उपचार ट्राइकोडर्मा विरिडी @ 4 g/kg बीज के साथ 50% कवकनाशी की खुराक के साथ करें।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>कार्बेन्डाजिम (Carbendzim) 50% ड्ब्ल्यू पी (W P) - बाविस्टिन (Bavistin) (बी ए एस एफ (BASF)), स्टारबेन्ज (Starbenz) (स्वाल (Swal)), बेंगार्ड (Benguard)  (डॉव), बेनफिल (Benfil)  (इंडोफिल (Indofil)), धानुस्टीन (Dhanustin) (धानुका (Dhanuka)), क्रॉप केयर (Crop Care) (एन ए सी एल (NACL))</li>
+                  <li>बेनोमाइल (Benomyl)  50% ड्ब्ल्यू पी (W P) - बेनलेट (Benlate) (डुपॉन्ट), बेनोफिट (Benofit) (कोरोमंडल (Coromandal)), क्योर (Cure) (ट्रोपिकल (Tropical)), बेंटेक (Bentech) (एडवांस (Advance))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="foot_rot"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/foot_rot.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >पाद विगलन<br /><i
+                > (फुसैरियम कलमोरम और एफ. ग्रेमीनियरम)</i
+              ></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">अंकुर अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>रोग मुख्य रूप से अंकुरों में होता है</li>
+                  <li>संक्रमित जड़ें और मूल भूरे रंग की हो जाती हैं।</li>
+                  <li>अंकुर हरे रंग के हो जाते हैं और विकास रुक जाता है।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>खेत की पर्याप्त जल निकासी करें।</li>
+                  <li>रिडोमिल (Ridomil) @ 2.75 g/l (275 g/एकड़) या फोसेफिल ए एल (Fosefyl AL) 80% ड्ब्ल्यू पी (W P) (2.5 g/l यानी 25g/एकड़) के साथ 100 L पानी में छिड़काव करना रोग को नियंत्रित करने में कारगर है।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>फोसेफिल ए एल (Fosefyl AL) 80% ड्ब्ल्यू पी (W P) - एलिएटे (बेयर (Bayer))</li>
+                  <li>मेटलैक्सिल-एम (Metalaxyl-M) (मेफेनोक्सम (Mefenoxam)) 4% + मैनकोज़ेब (Mancozeb) 64% डब्ल्यू पी (WP) - रिडोमिल गोल्ड (Ridomil Gold)  (सिजेन्टा (Syngenta))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="powdery_mildew"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/powdery_mildew.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >चूर्णिल आसिता<br /><i
+                > (ब्लुमेरिया ग्रेमिनिस एफ. स्प. ट्रिटिसी)</i
+              ></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">ध्वज-पत्ती अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>चूर्णिल आसिता रोग का विकास ठंडे तापमान (14 - 25 ° C) और नमी वाले मौसम में अधिक होता है</li>
+                  <li>लक्षण पत्ती और पत्ती की ऊपरी सतह पर सफेद से भूरे रंग के पाउडर के रूप में प्रकट होते हैं।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>1.5 g/l की दर से कार्बेन्डाजिम (carbendzim) का छिड़काव करें। 200 L पानी में (300 g/ac) या 3 g/l (600 g/ac) पर मैनकोजेब (Mancozeb)।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>कार्बेन्डाजिम (Carbendzim) 50% ड्ब्ल्यू पी (W P) - बाविस्टिन (Bavistin) (बी ए एस एफ (BASF)), स्टारबेन्ज (Starbenz) (स्वाल (Swal)), बेंगार्ड (Benguard)  (डॉव), बेनफिल (Benfil)  (इंडोफिल (Indofil)), धानुस्टीन (Dhanustin) (धानुका (Dhanuka)), क्रॉप केयर (Crop Care) (एन ए सी एल (NACL))</li>
+                  <li>मैनकोजेब (Mancozeb) 75% ड्ब्ल्यू पी (W P) - डाइथेन (Dithane) M-45 (डॉव (Dow)), इंडोफिल (Indofil) M-45 इंडोफिल (Indofil), टाटा (Tata) M-45 (टाटा (TATA)), धानुका (Dhanuka) M-45 (धानुका (Dhanuka)), क्रॉप मैन (एन ए सी एल (NACL), स्पर्श (Sparsh) (बायोस्टैड (BioStadt))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="black_rust"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/black_rust.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >काला रतुआ<br /> <i>(पक्सीनिया ग्रेमिनिस एफ. स्प. ट्रिटिसी)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">सभी विकास अवस्थाएं</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>दाने (अनियमित रंगीन वृद्धि) तने, पत्ती के आवरण, पत्तियों और बालियों पर होते हैं।</li>
+                  <li>तना सबसे गंभीर रूप से प्रभावित होता है, गहरे भूरे रंग के दाने उन पर आते हैं जिसमें टूटी हुई बाहरी त्वचा होती है।</li>
+                  <li>पत्तियां, तने और कंटकों के दोनों तरफ दाने होते हैं।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>क्षेत्र के लिए अनुशंसित नवीनतम प्रतिरोधी किस्मों का उपयोग करें। (एच आई (HI) 1544, जी डब्ल्यू (GW) 322, एच आई (HI) 8498, एच डी (HD) 4672, एम पी (MP) 3288)</li>
+                  <li>मैनकोजेब (Mancozeb) को 3 g/l की दर पर छिड़काव करें। (600 g/एकड़) या 150 लीटर पानी में कार्बेन्डाजिम (Carbendzim) 1.5 g/l (450 g/एकड़)</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>मैनकोजेब (Mancozeb) 75% ड्ब्ल्यू पी (W P) - डाइथेन (Dithane) M-45 (डॉव (Dow)), इंडोफिल (Indofil) M-45 इंडोफिल (Indofil), टाटा (Tata) M-45 (टाटा (TATA)), धानुका (Dhanuka) M-45 (धानुका (Dhanuka)), क्रॉप मैन (एन ए सी एल (NACL), स्पर्श (Sparsh) (बायोस्टैड (BioStadt))</li>
+                  <li>कार्बेन्डाजिम (Carbendzim) 50% ड्ब्ल्यू पी (W P) - बाविस्टिन (Bavistin) (बी ए एस एफ (BASF)), स्टारबेन्ज (Starbenz) (स्वाल (Swal)), बेंगार्ड (Benguard)  (डॉव), बेनफिल (Benfil)  (इंडोफिल (Indofil)), धानुस्टीन (Dhanustin) (धानुका (Dhanuka)), क्रॉप केयर (Crop Care) (एन ए सी एल (NACL))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="flag_smut"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/flag_smut.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >ध्वज कवक<br /><i> (यूरोसिस्टिस अग्रोपाइरी)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">देर अंकुरण से परिपक्वता अवस्था तक</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>यह रोग मुख्य रूप से गेहूं की फसल के पत्ते को प्रभावित करता है।</li>
+                  <li>सलेटी काले रंग के रेखाकार सोरी पत्ती के ब्लेड और शिराओं के बीच में आवरण पर निकलते हैं।</li>
+                  <li>प्रारंभिक अवस्था में सोरी एपिडर्मिस के साथ कवर होते हैं और बाद में यह टूटकर काले बीजाणुओं को उजागर करते हैं।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>ज्ञात स्रोतों से प्रमाणित और रोग मुक्त बीज का उपयोग करें।</li>
+                  <li>1.5 g/kg बीज की दर पर कार्बोक्सिन (Carboxin) 37.5% + थिरम 37.5% ड्ब्ल्यू पी (W P)/कार्बेन्डाजिम (Carbendzim) के साथ बीज उपचार।</li>
+                  <li>फसल चक्र का पालन करें।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>कार्बोक्सिन (Carboxin) 37.5% + थिरम (Thiram) 37.5% ड्ब्ल्यू पी (W P) - विटावैक्स पावर (Vitavax Power) (धानुका (Dhanuka))</li>
+                  <li>कार्बेन्डाजिम (Carbendzim) 50% ड्ब्ल्यू पी (W P) - बाविस्टिन (Bavistin) (बी ए एस एफ (BASF)), स्टारबेन्ज (Starbenz) (स्वाल (Swal)), बेंगार्ड (Benguard)  (डॉव), बेनफिल (Benfil)  (इंडोफिल (Indofil)), धानुस्टीन (Dhanustin) (धानुका (Dhanuka)), क्रॉप केयर (Crop Care) (एन ए सी एल (NACL))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="karnal_bunt"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/karnal_blunt.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >करनाल बंट<br /><i> (टिल्लेटिया इंडिका)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc"
+                    >फूल निकलने की अवस्था, फल लगने की अवस्था, कटाई के बाद</span
+                  ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>अनाज संक्रमित होते हैं और बीजाणुओं के काले पाउडर में परिवर्तित हो जाते हैं।</li>
+                  <li>बीजाणु आसानी से हवा से उड़ जाते हैं, जिससे बीमारी फैलती है।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>कार्बोक्सिन (Carboxin) 37.5% + थिरम (Thiram) 37.5% ड्ब्ल्यू पी (W P) @ 2.5 g/kg बीज यानी 100 g/एकड़ के साथ बीज उपचार</li>
+                  <li>फूल निकलने की अवस्था में अधिक सिंचाई से बचें।</li>
+                  <li>बीज के लिए फसल में, 200 लीटर पानी में मैनकोजेब (Mancozeb) 75% ड्ब्ल्यू पी (W P) @ 1 kg/एकड़ या प्रोपिकोनाज़ोल (Propiconazole) 25% ई सी (E C) @ 200 ml/एकड़ छिड़काव बाली निकलने की अवस्था में रोग को कम करता है।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>कार्बोक्सिन (Carboxin) 37.5% + थिरम (Thiram) 37.5% ड्ब्ल्यू पी (W P) - विटावैक्स पावर (Vitavax Power) (धानुका (Dhanuka))</li>
+                  <li>मैनकोजेब (Mancozeb) 75% ड्ब्ल्यू पी (W P) - डाइथेन (Dithane) M-45 (डॉव (Dow)), इंडोफिल (Indofil) M-45 इंडोफिल (Indofil), टाटा (Tata) M-45 (टाटा (TATA)), धानुका (Dhanuka) M-45 (धानुका (Dhanuka)), क्रॉप मैन (एन ए सी एल (NACL), स्पर्श (Sparsh) (बायोस्टैड (BioStadt))</li>
+                  <li>प्रोपिकोनाजोल (Propiconazole) 25% ई सी (E C) - टिल्ट (Tilt) सिन्जेंटा (Syngenta), टाइड (Tide) (एम आई एल (MIL)), ज़ेरॉक्स (Zerox) (धानुका (Dhanuka)), सोना (Sona) (आई आई एल  (IIL)), रिज़ल्ट (Result) (नागार्जुन (Nagarjuna))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="alternaria_blight"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/alternaria_leaf.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >अल्टरनेरिया पत्ती झुलसा रोगा <br /><i>(अल्टरनेरिया ट्रिटिसीना)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">दाना बनने की अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>उच्च नमी, लगातार सिंचाई और 22 से 28 oC का तापमान रोग की आशंका को बढ़ावा देता है।</li>
+                  <li>पत्ती पर भूरे रंग के घाव दिखाई देते हैं।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>मैनकोजेब (Mancozeb) को 3g/l की दर से छिड़काव करें। 200 L पानी में (600 g/एकड़)</li>
+                  <li>1.5 g/l की दर से कार्बेन्डाजिम (Carbendzim)  का छिड़काव करें। 200 लीटर पानी में (300 g/एकड़)</li>
+                  <li>प्रमाणित या पंजीकृत बीजों का उपयोग करें।</li>
+                  <li>संक्रमित पौधे के मलबे को नष्ट करें।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>कार्बेन्डाजिम (Carbendzim) 50% ड्ब्ल्यू पी (W P) - बाविस्टिन (Bavistin) (बी ए एस एफ (BASF)), स्टारबेन्ज (Starbenz) (स्वाल (Swal)), बेंगार्ड (Benguard)  (डॉव), बेनफिल (Benfil)  (इंडोफिल (Indofil)), धानुस्टीन (Dhanustin) (धानुका (Dhanuka)), क्रॉप केयर (Crop Care) (एन ए सी एल (NACL))</li>
+                  <li>मैनकोजेब (Mancozeb) 75% ड्ब्ल्यू पी (W P) - डाइथेन (Dithane) M-45 (डॉव (Dow)), इंडोफिल (Indofil) M-45 इंडोफिल (Indofil), टाटा (Tata) M-45 (टाटा (TATA)), धानुका (Dhanuka) M-45 (धानुका (Dhanuka)), क्रॉप मैन (एन ए सी एल (NACL), स्पर्श (Sparsh) (बायोस्टैड (BioStadt))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="black_sooty"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/black_sooty.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >काली और राख जैसी फफूंद<br /><i
+                > (अल्टरनेरिया, क्लैडोस्पोरियम)</i
+              ></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">अनाज की बाद की अवस्थाएं</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>रोग नम, बरसात और गीली स्थितियों में होता है।</li>
+                  <li>यह तब भी हो सकता है जब एफिड्स की एक बड़ी आबादी द्वारा पौधों पर हमला किया जाता है।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>खेत की साफ-सफाई रखें।</li>
+                  <li>बीज की प्रतिरोधी किस्मों का प्रयोग करें।</li>
+                  <li>मैनकोजेब (Mancozeb) को 3g/l की दर से छिड़काव करें। 250 L पानी में (750 g/एकड़)</li>
+                  <li>1.5 g/l की दर से कार्बेन्डाजिम (Carbendzim)  का छिड़काव करें। 250 L पानी में (375 g/एकड़) या</li>
+                  <li>10 से 15 दिनों के अंतराल पर 250 L पानी में 0.25% (750 g/ac) की दर से कॉपर ऑक्सीक्लोराइड (Copper oxychloride) का छिड़काव करें।</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>कार्बेन्डाजिम (Carbendzim) 50% ड्ब्ल्यू पी (W P) - बाविस्टिन (Bavistin) (बी ए एस एफ (BASF)), स्टारबेन्ज (Starbenz) (स्वाल (Swal)), बेंगार्ड (Benguard)  (डॉव), बेनफिल (Benfil)  (इंडोफिल (Indofil)), धानुस्टीन (Dhanustin) (धानुका (Dhanuka)), क्रॉप केयर (Crop Care) (एन ए सी एल (NACL))</li>
+                  <li>मैनकोजेब (Mancozeb) 75% ड्ब्ल्यू पी (W P) - डाइथेन (Dithane) M-45 (डॉव (Dow)), इंडोफिल (Indofil) M-45 इंडोफिल (Indofil), टाटा (Tata) M-45 (टाटा (TATA)), धानुका (Dhanuka) M-45 (धानुका (Dhanuka)), क्रॉप मैन (एन ए सी एल (NACL), स्पर्श (Sparsh) (बायोस्टैड (BioStadt))</li>
+                  <li>कॉपर ऑक्सीक्लोराइड (Copper oxychloride) 50% ड्ब्ल्यू पी (W P) - ब्लू कॉपर (Blue Copper) (सिन्जेंटा (Syngenta)), ब्लिटॉक्स (Blitox) (टाटा (TATA)), ट्रुकॉप (Trucop) (इंडोफिल (Indofil)), धानुकोप (Dhanucop) (धानुका (Dhanuka)), क्रॉप कैप (एन ए सी एल (NACL))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="black_point"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/black_point_wheat.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >गेहूं का काला फफूंद<br /><i> (हेल्मिन्थोस्पोरियम)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc">प्रारंभिक फूल खिलने की अवस्था</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>रोग नम मौसम में अधिक होता है।</li>
+                  <li>दाने बदरंग हो जाते हैं।</li>
+                  <li>परिपक्व गेहूं की गुठली गहरे भूरे रंग से काले रंग की हो जाती है।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>बाली निकलने के समय यदि बारिश होती है, तो 200 L पानी में प्रोपिकोनाज़ोल (Propiconazole) 0.1% 200 ml/एकड़ का एक छिड़काव</li>
+                </ul></span></div>
+          </div>
+
+          <div class="row">
+            <div class="w-100">
+              <label>मुख्य व्यापारिक नाम</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>प्रोपिकोनाजोल (Propiconazole) 25% ई सी (E C) - टिल्ट (Tilt) सिन्जेंटा (Syngenta), टाइड (Tide) (एम आई एल (MIL)), ज़ेरॉक्स (Zerox) (धानुका (Dhanuka)), सोना (Sona) (आई आई एल  (IIL)), रिज़ल्ट (Result) (नागार्जुन (Nagarjuna))</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div><span class="anchor" id="root_knot"></span><div class="card">
+        <div class="img-holder slider-main">
+          <button
+            class="js-prev slider-arrows slider-arrows--prev"
+            onclick="slideBtn('Stem-Borer','prev')"
+          >&lsaquo;</button>
+          <ul class="js-slider slider-home">
+            <li
+              class="js-slider-item slider-main__item has-background-image active"
+              style="
+                background-image: url('./assets/images/Wheat/root_knot.png');
+              "
+            ></li>
+          </ul>
+          <button
+            class="js-next slider-arrows slider-arrows--next"
+            onclick="slideBtn('Stem-Borer','next')"
+          >&rsaquo;</button>
+        </div>
+        <div class="cont-holder">
+          <div class="row"><span class="title"
+              >जड़ गाँठ<br /><i> (मेलोइडोगाइन प्रजातियां)</i></span
+            ></div>
+          <div class="row">
+            <div class="w-35">
+              <div class="row">
+                <div class="w-100"><label>मौसम</label></div>
+                <div class="w-100"><span class="desc">-</span></div>
+              </div>
+            </div>
+            <div class="w-65 bor-left">
+              <div class="row">
+                <div class="w-100">
+                  <label>समय/अवस्था</label>
+                </div>
+                <div class="w-100"><span class="desc"
+                    >फूल निकलने, फल लगने, अंकुरित होने और बढ़ने की अवस्था</span
+                  ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="w-100"><label>लक्षण</label></div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>यह नेमाटोड जड़ों या जड़ के सिरे के पास गॉल्स या छोटी गांठ जैसी संरचना बनाता है।</li>
+                  <li>जड़ों में अत्यधिक शाखाओं के विकास से हमले अधिक होते हैं।</li>
+                </ul></span></div>
+          </div>
+          <div class="row">
+            <div class="w-100">
+              <label>नियंत्रण उपाय</label>
+            </div>
+            <div class="w-100"><span class="desc"><ul class="ul">
+                  <li>फसल चक्र का पालन करें</li>
+                  <li>नेमाटोड की हरकतों को कम करने के लिए जाल वाली फसलों जैसे टमाटर/मैरीगोल्ड जैसी रेपेलेंट फसलों का उपयोग करें</li>
+                  <li>मिट्टी में पेसीलोमाइसस @ 5 kg/एकड़ लगायें</li>
+                </ul></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="assets/js/slider.js"></script>
+  </body>
+</html>

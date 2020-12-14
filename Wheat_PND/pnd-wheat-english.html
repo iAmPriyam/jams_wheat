@@ -1,0 +1,2739 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/slider.css" />
+        <link rel="stylesheet" href="assets/css/base.css" />
+    </head>
+    <body>
+        <div class="w-100 sel-box">
+            <div class="w-50">
+                <select
+                    id="pest"
+                    onchange="location = this.value;document.getElementById('disease').value = ''"
+                >
+                    <option value="">Select Pest</option>
+                    <option value="#termites">Termites</option>
+                    <option value="#shoot_fly">Shoot Fly</option>
+                    <option value="#army_worm">Army Worm</option>
+                    <option value="#pink_stem_borer">Pink Stem Borer</option>
+                    <option value="#aphids">Aphids</option>
+                    <option value="#wheat_thrips">Wheat Thrips</option>
+                    <option value="#jassids">Jassids</option>
+                    <option value="#flea_beetles">Flea Beetles</option>
+                    <option value="#surface_grasshopper">Surface Grasshopper</option>
+                    <option value="#brown_wheat_mite">Brown Wheat Mite</option>
+                    <option value="#ear_cockle">Ear Cockle</option>
+                    <option value="#american_pod_borer">American Pod Borer</option>
+                    <option value="#cereal_leaf_beetle">Cereal Leaf Beetle</option>
+                    <option value="#hessian_fly">Hessian Fly</option>
+                    <option value="#white_grub">White Grub</option>
+                    <option value="#stem_maggot">Stem Maggot</option>
+                </select>
+            </div>
+            <div class="w-50">
+                <select
+                    id="disease"
+                    onchange="location = this.value;document.getElementById('pest').value = ''"
+                >
+                    <option value="">Select Disease</option>
+                    <option value="#brown_rust">Brown Rust</option>
+                    <option value="#stripe_rust">Stripe Rust / Yellow Rust</option>
+                    <option value="#loose_smut">Loose Smut</option>
+                    <option value="#foot_rot">Foot Rot</option>
+                    <option value="#powdery_mildew">Powdery Mildew</option>
+                    <option value="#black_rust">Black Rust</option>
+                    <option value="#flag_smut">Flag Smut</option>
+                    <option value="#karnal_bunt">Karnal Bunt</option>
+                    <option value="#alternaria_blight">Alternaria Leaf Blight</option>
+                    <option value="#black_sooty">Black and Sooty Mold</option>
+                    <option value="#black_point">Black Point of Wheat</option>
+                    <option value="#root_knot">Root Knot</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="container pt-5">
+            <h2 class="font-medium pl-1">Pests</h2>
+            <div class="card" id="termites">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/termites.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Termites<br /><i
+                                >(Odontotermis obesus, Microtermis obesi)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc"
+                                        >Seedlings to Ripening stage</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Termites attack the crop at various growth stages, from seedlings to maturity.</li>  
+                                    <li> Severely damaged plants  look wilted and dried. </li>
+                                    <li>In case roots are partially damaged, the plants show yellowing.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Sow at a higher rate of atleast 20% to compensate for yield losses to termites in severely affected areas.</li>
+                                    <li>Remove plant residues and other debrise specially moist and decaying wood.</li>
+                                    <li>Before sowing, treat the seed with Fipronil 5% SC @ 6 ml per kg (240 - 300 ml/ac seed) or chlorpyriphos 20EC @ 4 ml per kg seed (160 ml/ac seed).</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Fipronil 5% SC - Regent SC (Bayer), Stargazette (Swal), Sonic Flo (TATA),  Sonic Flo (TATA),  Mahaveer (Gharda), Fax SC (Dhanuka), Sargent SC (IIL)</li>
+                                    <li>Chlorpyrifos 20% EC - Dursban (Dow), Chloroban (UPL), Tricel 20 (Excel), Lethal 20 EC (IIL), Tafaban (TATA), Trishul (Coromandel),  Strike 20EC (BioStadt),</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="shoot_fly">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/shoot_fly.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Shoot Fly<br /><i
+                                >(Atherigona naqvii)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc"
+                                        >Seedling stage</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>The maggots bore into the shoot of young plants, a week after germination to about one month. </li>
+                                    <li>The central shoot dries up resulting in „dead hearts‟. </li>
+                                    <li>The infestation often goes as high as 60%.</li>
+
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Timely sowing i.e. 15 to30 November is recommended, as late sown crop (December sown) receive more infestation of shoot fly.  </li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                  
+                </div>
+            </div>
+
+
+            <div class="card" id="army_worm">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/army_worm.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Army Worm<br /><i
+                                >(Mythimna separate)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc"
+                                        >Seedling & Tillering stage</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Early instar larvae skeletonise the leaves whereas later instar larvae are voracious feeders on leaves during night.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                   <li>Pheromone traps @ 4-5/acre to be installed for monitoring fruit borer. Replace the lures with fresh lures after every 20-25 day interval. ETL for fruit borer is 8 to10 moths /day/trap.</li>
+                                   <li>Bird perches @ 10/ acre should be erected for facilitating field visits
+                                    of predatory birds.</li>
+                                   <li>Apply Insecticide Spinosad 45 SC @ 65 ml/ac in 150 L of Water</li>
+                                   <li>Spray Chloropyriphos 50 EC + Cypermethrin 5 EC (1.0 ml/liter) 150 ml in 150 L of Water</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Spinosad 45% SC - Spintor (Bayer), Tracer (Dow), One-Up (Dhanuka), Taffin (TATA), Conserve (Nagarjuna)</li>
+                                    <li>Chlorpyrifos 50% + Cypermethrin 5% EC - Double Star (Swal), Koranda 505 (TATA), Hamla 550 (Gharda), Super Strong 505 (Sumil), Lethal Super 505 (IIL)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="pink_stem_borer">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/pink_stem_borer.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Pink stem borer<br /><i
+                                >(Sesamia inference)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Booting to Dough stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                   <li>Severe damage causes the stem to break.</li>
+                                   <li>Severely infected plants due to stunting may appear to have some times the cob and tassel at one place.</li>
+                                   <li>Whorl feeding of larvae results in rows of oblong holes in unfolding leaves whereas round shot holes are  produced by Chilo partellus.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                   <li>Fenvalrate 20 EC @ 2ml/L ie 400 ml in 200 L of Water is highly effective.</li>
+                                   <li>Spinosad 45 SC @ 80 ml/ac in 200 L of Water and chlorantraniliprole 18.5 SC @ 25 ml/ac in 200 L of Water were found to be at par and significantly effective for the control</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Fenvalerate 20% EC - Krifen (KR), Fenkill (UPL), King Pen (KCS), Devifen 20 (Devidayal), Tatafen 10 EC (TATA)</li>
+                                    <li>Spinosad 45% SC - Spintor (Bayer), Tracer (Dow), One-Up (Dhanuka), Taffin (TATA), Conserve (Nagarjuna)</li>
+                                   <li>Chlorantraniliprole 18.5% SC - Coragen (DuPont)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="aphids">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/aphids.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Aphids<br /><i
+                                >(Sitobion avenae)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Seedling to Earhead stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                   <li>The nymphs and adults suck the sap from plants, particularly from their ears.</li> 
+                                   <li>The Plants appears brown and discolored.</li> 
+                                   <li>Damaged leaves will often appear slightly curled or speckled at worst.</li> 
+                                    
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                   <li>Spray the crop with any of the following chemicals</li>
+                                   <li>Imidacloprid 17.8 SL @ 2.4ml/acre. Spinosad 45 SC @ 0.015</li>
+                                   <li>Acetamiprid 20% SP @ 20- 40 g in 200-240 l of water/acre.</li>
+                                    
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Spinosad 45% SC - Spintor (Bayer), Tracer (Dow), One-Up (Dhanuka), Taffin (TATA), Conserve (Nagarjuna)</li>
+                                    <li>Imidacloprid 17.8 SL - Confidor (Bayer), Seamer (DuPont),  Imidastar (Swal), Imiden (Dow), Courage (MIL),  Imidacel 17.8 & 20 (Excel), Imida Gold (UPL),  Tatamida (TATA)</li>
+                                    <li>Acetamiprid 20% SP - Manik (TATA),  Rekord (DuPont),  Acetacel (Excel), Aceta (UPL), Lift (Indofil), Dhan Preet (Dhanuka), Crop Pride (NACL), Sharp (IIL)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="wheat_thrips">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/wheat_thrips.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Wheat Thrips<br /><i
+                                >(Haplothrips tritici)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Seedling & Tillering </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                   <li>Thrips usually infect the sheath of the flag leaf, feeding on the stem.</li>
+                                   <li>Adults and nymphs both can cause damage.</li>
+                                   <li>In present in large numbers, may cause silver coloration of the tissue.</li>
+                                    
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                   <li>Deep ploughing (to a depth of about 25 cm)  after one shallow ploughing in effective method of controlling the population of H. tritici nymphs overwintering in the soil  </li>
+                                   <li>Spray 5% NeemSeed Kernal Extract</li>
+                                   <li>Imidacloprid 17.8 SL @0.5ml/L (75 ml) or Thiomethoxam 25 WG @ 1g/L (150 g) in 150 L of Water/ac</li>
+                                    
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Imidacloprid 17.8 SL - Confidor (Bayer), Seamer (DuPont),  Imidastar (Swal), Imiden (Dow), Courage (MIL),  Imidacel 17.8 & 20 (Excel), Imida Gold (UPL),  Tatamida (TATA)</li>
+                                    <li>Thiamethoxam 25% WG - Actara (Syngenta), Battalion (Swal), Wonderex (Excel), Renova (UPL), Devitara (Devidayal), Click (Indofil), Areva (Dhanuka)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="jassids">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/jassids.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Jassids <br /><i
+                                >(Typhlocyba macullfrons motsch)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc"
+                                        >Seedlings to tillering stage</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Yellowing and curling along the margin of the leaves in the middle to upper portion of the crop.
+                                    </li>
+
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Spray of 5 % neem seed kernel extract prepared on farm or crude neem oil spray @ 1% suppresses jassid population </li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                  
+                </div>
+            </div>
+
+            <div class="card" id="flea_beetles">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/flea_beetles.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Flea beetles<br /><i
+                                >(Phyllotreta chotanica Duv.)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Seedlings stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                   <li>These tiny, jumping bettles are dark and shiny and strip off the upper surface of leaves causing whitish streaks.</li>
+                                    
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                   <li>Good weed control between crops and along field edges is important.</li>
+                                   <li>pyrethroid-based products  effective at controlling this pest like Alpha -Cypermethrin @1ml/L (150 ml/ac) or Fipronil 5% SC @ 1ml/L (150 ml/ac) in 150 L of Water</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Alpha-Cypermethrin 10% WP - Alfastar (Swal), Guru (UPL), Karfu (Kilpest), Safari (SuperCSL), Dash 5% WP (MIL)</li>
+                                    <li>Fipronil 5% SC - Regent SC (Bayer), Stargazette (Swal), Sonic Flo (TATA),  Sonic Flo (TATA),  Mahaveer (Gharda), Fax SC (Dhanuka), Sargent SC (IIL)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="surface_grasshopper">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/surface_grasshopper.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Surface grasshopper<br /><i
+                                >(Chrotogonus trachypterus)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Seedlings stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                   <li>Both nymphs and adults do the damage by feeding on leaves and cutting seedling.</li>
+                                   <li>The leaves look cut and seedling fallen which may necessitate resowing in case of severe infestation.  </li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                   <li>Control the Grasshoppers by dusting  the crop with  5% malathion @ 10 kg/ac.      </li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Malathion - 50% EC - Cythion (Coromandal), Milthion (IIL)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            
+            <div class="card" id="brown_wheat_mite">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/brown_wheat.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Brown Wheat Mite<br /><i
+                                >(Petrobia lateens)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Tillering to Ripeing stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Cause damage through mite infestation </li>
+                                    <li>Mites cause a silvery flecking on leaves.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Seed treatment with thiomethoxam @ 2-3 g/kg seed ie 120 -150 g/ac seed . </li>
+                                    <li>Foliar sprays of Dicofol 5 ml/L @ 1000ml/ac or Wettable sulphur 3 g/L @600 g/ac in 200 L of Water respectively. </li>
+                                    <li>The treatment needs repetition after 15 days interval depending on the pest incidence.</li>
+                                    
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Thiamethoxam 30% FS- Slayer Pro (GSP), Abhedh Super (Amber)</li>
+                                    <li>Dicofol 18.5% EC - Klin (KR), Starkel (Swal), Tiktok (UPL), Might (Devidayal), Sumfol (Sumil), Colonel-S (Indofil)</li>
+                                    <li>Sulphur 80% WP (Wettable Sulfur) - Thionutri (Syngenta), Starsulf (Swal), Sulfex (Excel), Sulfavit (Devidayal), Sulfil (Indofil), Sulfin Plus (IIL), Sultaf (TATA)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="ear_cockle">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/ear_crackle.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Ear Cockle<br /><i
+                                >(Nematode)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Pre-sowing stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Leaf blades generally twisted; infected ears are shorter and remain green longer.</li>
+                                    <li> Awns are more spreading; affected grains transformed into one or more small galls.</li>
+
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Use pure seed free from nematode galls.</li>
+                                    <li>Remove the galls mechanically, by sieving the seeds.</li>
+
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="american_pod_borer">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/american_pod_borer.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >American pod borer<br /><i
+                                >(Helicoverpa armigera Hubner)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Earhead stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Young larva feeds on the leaves for some time and then attacks earheads.</li>
+                                    <li>Internal tissues are eaten severely and completely hollowed out.</li>
+                                    <li>While feeding the caterpillar thrust its head inside leaving the rest of the body outside.</li>
+
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Spray Quinolphos 25% EC @ 2ml/L (400 ml) or Spray 3 kg /ac of carbaryl 50 WP in 200 L of Water</li>
+                                    
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Quinalphos 25% EC - Ekalux (Syngenta), Starlux 25 EC (Swal), Flash (Indofil), Vazra-25 (Cheminova)</li>
+                                    <li>Carbaryl 50% WP - Sevin, Devicarb (Devidayal), Kavin (KR)</li>
+                                    
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="cereal_leaf_beetle">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/cereal_leaf_beetle.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Cereal Leaf Beetle of Wheat<br /><i
+                                >(Oulema melanopa)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Flag leaf stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Wheat varieties with non hairy leaves are generally affected more.</li>
+                                    <li>The adult as well as the larvae is the damaging stage of the insect and cause longitudinal stripes on leaves.</li>
+
+
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Spray  Fipronil 5% SC at the rate of 260 ml/ac. in 200 L of Water</li>
+                                    
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Fipronil 5% SC - Regent SC (Bayer), Stargazette (Swal), Sonic Flo (TATA),  Sonic Flo (TATA),  Mahaveer (Gharda), Fax SC (Dhanuka), Sargent SC (IIL)</li>
+                                    
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="hessian_fly">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/hessian_fly.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Hessian Fly <br /><i
+                                >(Mayetiola destructor)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Early Tillering stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> The larvae damages the crop, by sap sucking from the stem.</li>
+                                    <li> With severe infestation the plants become stunted.</li>
+                                    <li> The plant stand is reduced and lodging occurs.</li>
+
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> Spray  Fipronil 5% SC at the rate of 250 ml/ac. dissolved in 200-250 litre of water.</li>
+                                    <li> Always use hollow cone nozzle for spraying.</li>
+                                    
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Fipronil 5% SC - Regent SC (Bayer), Stargazette (Swal), Sonic Flo (TATA),  Sonic Flo (TATA),  Mahaveer (Gharda), Fax SC (Dhanuka), Sargent SC (IIL)</li>
+                                    
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            
+            <div class="card" id="white_grub">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/white_grub.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >White Grub <br /><i
+                                >(Holotrichia consanguinea)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Early Stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> The roots are partially destroyed.</li>
+                                    <li> The plants are severely stunted and generally do not produce heads.</li>
+                                    <li> Patches of wilting and dying of plants is seen in the wheat fields.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> Spray  Fipronil 5% SC @ 300 ml/ac in 150 L of Water on the foliage or drench the soil at the base of the affected plants</li>
+                                    <li> Always use hollow cone nozzle for spraying.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Fipronil 5% SC - Regent SC (Bayer), Stargazette (Swal), Sonic Flo (TATA),  Sonic Flo (TATA),  Mahaveer (Gharda), Fax SC (Dhanuka), Sargent SC (IIL)</li>
+                                    
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="stem_maggot">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/stem_maggot.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Stem Maggot <br /><i
+                                >(Meromyze americana)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Flag-leaf stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> Young larvae bore inside the stem and feed on the tissue causing the tillers to fall.</li>
+                                    <li> With severe infestation the plant dies.</li>
+                                    <li> The infected plants show white head like condition.</li>
+                                    <li> The adult fly is pale green to yellow in colour with dark stripes.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> Practice deep summer ploughing to expose soil to solar radiation.</li>
+                                    <li> Use tolerant varieties and certified clean seeds recommended for the zone.</li>
+                                    <li> Avoid late sowing of crop.</li>
+                                    <li> Always use well rotten manures and recommended dose of fertilizers.</li>
+                                    <li> Spray any one of the following insecticide.</li>
+                                    <li> Dimethoate 30 EC at the rate of 135 ml/ac. OR</li>
+                                    <li> Fipronil 5% SC - @ 250 ml/ac.</li>
+                                    <li> The above spraying should be done by dissolving it in 250 litre of water.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Dimethoate 30 EC - Rogor (Cheminova), Tara-909 (Swal),  Tafgor (TATA), Crop Diamond (NACL)</li>
+                                    <li>Fipronil 5% SC - Regent SC (Bayer), Stargazette (Swal), Sonic Flo (TATA),  Sonic Flo (TATA),  Mahaveer (Gharda), Fax SC (Dhanuka), Sargent SC (IIL)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <h2 class="font-medium pl-1">Diseases</h2>
+
+            <div class="card" id="brown_rust">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/brown_rust.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Brown rust <br /><i
+                                >(Puccinia triticina)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">All growth stages</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> The fungus causes pustules on leaves which are brown in colour.</li>
+                                    <li> Early infection causes severe yield reductions.</li>
+                                    <li> The pustules are circular and slightly elliptical and are smaller then those of stem rust.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> Farmers are advised to use the latest resistant varieties recommended for the area. (HI 1544, GW 322, HI 8498, HD 4672, MP 3288.) </li>
+                                    <li> Foliar spray of Propiconazole 25% EC @ 0.1% (150 ml /ac) for the control or Mancozeb at 3g/l. (450 g/ac) in 150 L of Water </li>
+
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Propiconazole 25% EC - Tilt (Syngenta), Tide (MIL), Zerox (Dhanuka), Sona (IIL), Result (Nagarjuna)</li>
+                                    <li>Mancozeb 75% WP - Dithane M-45 (Dow), Indofil M-45 (Indofil), Tata M-45 (TATA), Dhanuka M-45 (Dhanuka), Crop Man (NACL), Sparsh (BioStadt)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="stripe_rust">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/stripe_rust.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Stripe rust /Yellow rust <br /><i
+                                >(Puccinia striiformis f. sp. tritici)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">All growth stages</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> Mainly occur on leaves than the leaf sheaths and stem.</li>
+                                    <li> Bright yellow pustules (Uredia) appear on leaves at early stage of crop and pustules are arranged in linear rows as stripes.</li>
+                                    <li> The stripes are yellow to orange yellow.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> Use   resistant varieties recommended for the area. (HI 1544, GW 322, HI 8498, HD 4672, MP 3288.)</li>
+                                    <li> Foliar spray of Propiconazole 25% EC @ 0.1% (200 ml/ac) in 200 L of Water for the control of brown and yellow rust.</li>
+                                    <li> Foliar spray of Carboxin 37.5% + Thiram 37.5% WP @0.2% (300g /ac) in 200 L of Water for the control of yellow rust.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Propiconazole 25% EC - Tilt (Syngenta), Tide (MIL), Zerox (Dhanuka), Sona (IIL), Result (Nagarjuna)</li>
+                                    <li>Carboxin 37.5% + Thiram 37.5% WP - Vitavax Power (Dhanuka)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="loose_smut">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/loose_smut.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Loose smut <br /><i
+                                >(Ustilago tritici)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">boot stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> Loose smut occurs under cool and humid weather. </li>
+                                    <li> The disease affects the entire inflorescence.</li>
+                                    <li> Loose smut is seed borne.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> Treat the seeds with any of the recommended systemic fungicide like Carboxin, Carbendzim at the rate of 1 to 1.5 gm per kg 40 - 50 g/ ac of seed at the time of sowing.</li>
+                                    <li> Benlate (Benomyl 50% WP) at the rate of 2.5 to 3.0 gm per kg of seed used. </li>
+                                    <li> Alternatively treat the seed with Trichoderma viride @ 4 gm/ kg seed with 50% dose of fungicide.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Carbendazim 50% WP - Bavistin (BASF), Starbenz (Swal), Benguard (Dow), Benfil (Indofil), Dhanustin (Dhanuka), Crop Care (NACL)</li>
+                                    <li>Benomyl 50% WP - Benlate (Dupont), Benofit (Coromandel), Cure (Tropical), Bentech (Advance)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="foot_rot">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/foot_rot.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Foot rot <br /><i
+                                >(Fusarium culmorum and F. graminearum)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Seedling Stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> The disease mainly occurs in seedlings</li>
+                                    <li> Infected roots and rootlets become brown in colour. </li>
+                                    <li> Seedlings become pale green and have stunted growth. </li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> Follow adequate drainage of the field.</li>
+                                    <li>  spraying with Ridomil @ 2.75 g/l (275 g/ac) or Fosefyl AL 80% WP (2.5 g/l ie 25g/ac)  in 100 L of Water is effective in controlling the disease.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Fosefyl AL 80% WP - Aliette (Bayer)</li>
+                                    <li>Metalaxyl-M (Mefenoxam) 4% + Mancozeb 64% WP - Ridomil Gold (Syngenta)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="powdery_mildew">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/powdery_mildew.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Powdery mildew <br /><i
+                                >(Blumeria graminis f. sp. Tritici)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Flag-leaf stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> The development of the powdery mildew disease is favoured by the cool temperature (14 - 25° C) and humid weather </li>
+                                    <li> The symptoms occur in the form of white to pale grey powder on the upper surface of the leaf and leaf sheath.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Spray carbendzim at the rate of 1.5g/l. (300 g/ac) OR
+                                        Mancozeb at 3g/l (600 g/ac) in 200 L of Water.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Carbendazim 50% WP - Bavistin (BASF), Starbenz (Swal), Benguard (Dow), Benfil (Indofil), Dhanustin (Dhanuka), Crop Care (NACL)</li>
+                                    <li>Mancozeb 75% WP - Dithane M-45 (Dow), Indofil M-45 (Indofil), Tata M-45 (TATA), Dhanuka M-45 (Dhanuka), Crop Man (NACL), Sparsh (BioStadt)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="black_rust">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/black_rust.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Black rust<br /><i
+                                >(Puccinia graminis f. sp. tritici.)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">All growth stages</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> Pustules(irregular colored growths) occur on stem, leaf sheath, leaves and ear head.</li>
+                                    <li> Stem is affected most severely dark brown pustules come on them stem with ruptured epidermis.</li>
+                                    <li>Pustules occur on both sides of the leaves, stems and on the spikes.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>use the latest resistant varieties recommended for the area. (HI 1544, GW 322, HI 8498, HD 4672, MP 3288.)</li>
+                                    <li>Spray Mancozeb at 3 gm/l. (600 g/ac) or Carbendzim at 1.5 gm/l (450 g/ac) in 150 L of Water</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Mancozeb 75% WP - Dithane M-45 (Dow), Indofil M-45 (Indofil), Tata M-45 (TATA), Dhanuka M-45 (Dhanuka), Crop Man (NACL), Sparsh (BioStadt)</li>
+                                    <li>Carbendazim 50% WP - Bavistin (BASF), Starbenz (Swal), Benguard (Dow), Benfil (Indofil), Dhanustin (Dhanuka), Crop Care (NACL)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="flag_smut">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/flag_smut.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Flag smut<br /><i
+                                >(Urocystis agropyri)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Late seedling stage to maturity</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> This disease mainly affects the leaf of the wheat crop.</li>
+                                    <li> Greyish black linear sori occur on the leaf blades and sheath in between the veins.</li>
+                                    <li>  In the early stage the sori are covered with the epidermis and later on it ruptures exposing the black spore mass.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> Use certified and disease free seeds from known sources.</li>
+                                    <li> Seed treatment with Carboxin 37.5% + Thiram 37.5% WP/Carbendzim at 1.5g/kg of seed.</li>
+                                    <li> Follow crop rotation .</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Carboxin 37.5% + Thiram 37.5% WP - Vitavax Power (Dhanuka)</li>
+                                    <li>Carbendazim 50% WP - Bavistin (BASF), Starbenz (Swal), Benguard (Dow), Benfil (Indofil), Dhanustin (Dhanuka), Crop Care (NACL)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="karnal_bunt">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/karnal_blunt.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Karnal bunt <br /><i
+                                >(Tilletia indica)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Flowering stage, Fruiting stage, Post-harvest</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>  Grains are infected and converted into black powdery mass of spores.</li>
+                                    <li> The spores are easily blown away by the wind, causing the spread of the disease.</li>
+
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> Seed treatment with Carboxin 37.5% + Thiram 37.5% WP @2.5gm/kg seed ie 100g/ac</li>
+                                    <li> Avoid excess irrigation at flowering stage. </li>
+                                    <li> In crop meant for seed, spray the crop with Mancozeb 75% WP @1 kg/ac or Propiconazole 25% EC @200 ml /ac in 200 litres of water at ear emergence stage is found to reduce the disease severity.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Carboxin 37.5% + Thiram 37.5% WP - Vitavax Power (Dhanuka)</li>
+                                    <li>Mancozeb 75% WP - Dithane M-45 (Dow), Indofil M-45 (Indofil), Tata M-45 (TATA), Dhanuka M-45 (Dhanuka), Crop Man (NACL), Sparsh (BioStadt)</li>
+                                    <li>Propiconazole 25% EC - Tilt (Syngenta), Tide (MIL), Zerox (Dhanuka), Sona (IIL), Result (Nagarjuna)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="alternaria_blight">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/alternaria_leaf.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Alternaria Leaf Blight<br /><i
+                                >(Alternaria triticina)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Dough stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> High humidity, frequent irrigation and temperatures of  22 to 28 o C favours the disease occurance.</li>
+                                    <li> Brown lesions appear on the leaf.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li> Spray Mancozeb at 3g/l. (600 g/ac) in 200 L of Water</li>
+                                    <li> Spray Carbendzim at 1.5g/l. (300g /ac) in 200 L of Water</li>
+                                    <li> Use certified or registered seeds.</li>
+                                    <li> Destroy infected plant debris.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Carbendazim 50% WP - Bavistin (BASF), Starbenz (Swal), Benguard (Dow), Benfil (Indofil), Dhanustin (Dhanuka), Crop Care (NACL)</li>
+                                    <li>Mancozeb 75% WP - Dithane M-45 (Dow), Indofil M-45 (Indofil), Tata M-45 (TATA), Dhanuka M-45 (Dhanuka), Crop Man (NACL), Sparsh (BioStadt)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="black_sooty">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/black_sooty.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Black and Sooty Mold <br /><i
+                                >(Alternaria, Cladosporium)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Latter stages of grain</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>  The disease occurs under humid, rainy and wet conditions.</li>
+                                    <li>  It can also occur when the plants are attacked by a large population of the aphids.</li>
+
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Follow field sanitaion.</li>
+                                    <li>Use resistant varieties of seed.</li>
+                                    <li>Spray Mancozeb at 3g/l. (750 g/ac) in 250 L of Water</li>
+                                    <li> Spray Carbendzim at 1.5g/l. (375 g/ac) in 250 L of Water or</li>
+                                    <li> Spray Copper oxychloride at the rate of 0.25 % (750g /ac) in 250 L of Water at 10 to 15 days interval.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Carbendazim 50% WP - Bavistin (BASF), Starbenz (Swal), Benguard (Dow), Benfil (Indofil), Dhanustin (Dhanuka), Crop Care (NACL)</li>
+                                    <li>Mancozeb 75% WP - Dithane M-45 (Dow), Indofil M-45 (Indofil), Tata M-45 (TATA), Dhanuka M-45 (Dhanuka), Crop Man (NACL), Sparsh (BioStadt)</li>
+                                    <li>Copper Oxychloride 50% WP - Blue Copper (Syngenta), Blitox (TATA), Trucop (Indofil), Dhanucop (Dhanuka), Crop Cap (NACL)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="black_point">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/black_point_wheat.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Black Point of Wheat<br /><i
+                                >(Helminthosporium)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Early anthesis stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>The disease is favoured by the humid weather.</li>
+                                    <li>The grains are discoloured.</li>
+                                    <li>The maturing wheat kernals turn dark brown to black in colour.</li>
+                                    
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>One spray of  Propiconazole 0.1%  200 ml/ac in 200 L of Water if the rains occur at the time of ear head emergence</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Top Trade Names</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Propiconazole 25% EC - Tilt (Syngenta), Tide (MIL), Zerox (Dhanuka), Sona (IIL), Result (Nagarjuna)</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" id="root_knot">
+                <div class="img-holder slider-main">
+                    <button
+                        class="js-prev slider-arrows slider-arrows--prev"
+                        onclick="slideBtn('Stem-Borer','prev')"
+                    >
+                        &#x2039;
+                    </button>
+                    <ul class="js-slider slider-home">
+                        <li
+                            class="js-slider-item slider-main__item has-background-image active"
+                            style="
+                                background-image: url('./assets/images/Wheat/root_knot.png');
+                            "
+                        ></li>
+                       
+                    </ul>
+                    <button
+                        class="js-next slider-arrows slider-arrows--next"
+                        onclick="slideBtn('Stem-Borer','next')"
+                    >
+                        &#x203A;
+                    </button>
+                </div>
+                <div class="cont-holder">
+                    <div class="row">
+                        <span class="title"
+                            >Root Knot<br /><i
+                                >(Meloidogyne species)</i
+                            ></span
+                        >
+                    </div>
+                    <div class="row">
+                        <div class="w-35">
+                            <div class="row">
+                                <div class="w-100"><label>Season</label></div>
+                                <div class="w-100">
+                                    <span class="desc">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-65 bor-left">
+                            <div class="row">
+                                <div class="w-100">
+                                    <label>Time/Stage </label>
+                                </div>
+                                <div class="w-100">
+                                    <span class="desc">Flowering , Fruiting , Seedling and Vegetative stage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-100"><label>Symptoms </label></div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>This nematode forms the galls or small knot like structuires near the roots and parts of the root tip.</li>
+                                    <li>The attack favours the development of the excessive branching in the roots.</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100">
+                            <label>Control Measures</label>
+                        </div>
+                        <div class="w-100">
+                            <span class="desc">
+                                <ul class="ul">
+                                    <li>Follow crop Rotation</li>
+                                    <li>Use trap crops like tomato / repellant crops like marigold to arrest the movement of the nematodes</li>
+                                    <li>apply Paecilomyces @ 5 kg/ ac to the soil</li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                   
+
+                </div>
+            </div>
+
+        </div>
+        <script type="text/javascript" src="assets/js/slider.js"></script>
+    </body>
+</html>
